@@ -30,7 +30,7 @@ class blauwdruk:
 print("blauwdruk.lives", blauwdruk.lives)
 
 player10 = blauwdruk
-player10.lives = 190
+player10.lives = 195
 
 print("player10.lives", player10.lives)
 
