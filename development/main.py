@@ -23,13 +23,20 @@ IS_RUNNING = True
 class blauwdruk:
 
      lives = 5
+     points = 0
      def __init__(self, lives):
          self.lives = lives
 
+print("blauwdruk.lives", blauwdruk.lives)
+
+player10 = blauwdruk
+player10.lives = 190
+
+print("player10.lives", player10.lives)
 
 playerSprite = pygame.image.load('../art/spr_Player.png')
 playerRect = playerSprite.get_rect()
-playerSpeed = 5
+playerSpeed = 60
 
 
 while IS_RUNNING:
