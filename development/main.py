@@ -22,13 +22,7 @@ IS_RUNNING = True
 
 class blauwdruk:
 
-    _lives = 5
-    _points = 0
-
-def _init_(self):
-    self.lives = _lives
-
-    
+     _lives = 5
 
 playerSprite = pygame.image.load('../art/spr_Player.png')
 playerRect = playerSprite.get_rect()
