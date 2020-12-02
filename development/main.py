@@ -20,8 +20,17 @@ FPS     = 30
 BG_COLOUR = [0, 0, 0]
 IS_RUNNING = True
 
+class blauwdruk:
 
-playerSprite = pygame.image.load("../Art/spr_Player.png")
+    _lives = 5
+    _points = 0
+
+def _init_(self):
+    self.lives = _lives
+
+    
+
+playerSprite = pygame.image.load('../art/spr_Player.png')
 playerRect = playerSprite.get_rect()
 playerSpeed = 5
 
