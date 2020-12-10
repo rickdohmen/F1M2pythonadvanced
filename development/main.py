@@ -21,7 +21,6 @@ BG_COLOUR = [0, 0, 0]
 IS_RUNNING = True
 
 
-
 class blauwdruk:
 
      lives = 5
